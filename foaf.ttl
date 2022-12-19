@@ -1,0 +1,36 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://webns.net/mvcb/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://raw.githubusercontent.com/naumoskajana/VBS/main/foaf.ttl>
+  a foaf:PersonalProfileDocument ;
+  foaf:maker <https://raw.githubusercontent.com/naumoskajana/VBS/main/foaf.ttl#me> ;
+  foaf:primaryTopic <https://raw.githubusercontent.com/naumoskajana/VBS/main/foaf.ttl#me> ;
+  ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+  ns0:errorReportsTo <mailto:leigh@ldodds.com> .
+
+<https://raw.githubusercontent.com/naumoskajana/VBS/main/foaf.ttl#me>
+  a foaf:Person ;
+  foaf:name "Jana Naumoska" ;
+  foaf:title "Mrs" ;
+  foaf:givenname "Jana" ;
+  foaf:family_name "Naumoska" ;
+  foaf:mbox_sha1sum "b55960831aeb84c3dac0f221012b7f0cb399ad12" ;
+  foaf:homepage <https://www.instagram.com/naumoskajana/> ;
+  foaf:workplaceHomepage <https://www.scalefocus.com/> ;
+  foaf:workInfoHomepage <https://www.zippia.com/software-support-engineer-jobs/what-does-a-software-support-engineer-do/> ;
+  foaf:schoolHomepage <https://www.finki.ukim.mk/> ;
+  foaf:knows [
+    a foaf:Person ;
+    foaf:name "Emilijan" ;
+    foaf:mbox_sha1sum "d4295679d0653404aa755edee9364491adee6091" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/bratuchedot/foaf/master/foaf.ttl>
+  ], [
+    a foaf:Person ;
+    foaf:name "Emilijana" ;
+    foaf:mbox_sha1sum "9141963286dbb8b1de881baca76197f3fb4d9427"
+  ], [
+    a foaf:Person ;
+    foaf:name "Viktor" ;
+    foaf:mbox_sha1sum "2843efb7364fb1419915333d74e09633c2e758ab"
+  ] .
